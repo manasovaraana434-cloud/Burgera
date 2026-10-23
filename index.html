@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>FASFUT — Даамдуу тандоо</title>
+</head>
+<body>
+<header>
+<nav>
+<a class="logo" href="#home">🛒 FASFUT</a>
+<div class="links">
+<a href="#home">Башкы бет</a>
+<a href="#catalog">Меню</a>
+<a href="#about">Биз жөнүндө</a>
+<a href="#contacts">Байланыш</a>
+</div>
+<a class="btn" href="#order">🧺 <span id="count">0</span></a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<p>🔥 FASFUT — ДААМДЫН ЖАҢЫ ДЕҢГЭЭЛИ</p>
+<h1>Сүйүктүү даамың <span>бир кадамда!</span></h1>
+<p>Ширелүү бургерлер, кытырак фри жана өзгөчө даамдар. Менюдан тандап, заказды оңой бер!</p>
+<a class="btn" href="#catalog">Менюну көрүү →</a>
+</div>
+<div class="hero-pic">🍔🍟🥤</div>
+</section>
+
+<section>
+<div class="features">
+<div class="feature">🚚<strong>Тез заказ</strong>Ыңгайлуу тандоо</div>
+<div class="feature">🥬<strong>Жаңы азыктар</strong>Даамга көңүл бурабыз</div>
+<div class="feature">💰<strong>Жакшы баа</strong>Ар кимге ылайык</div>
+<div class="feature">🛡️<strong>Сапат</strong>Ар бир заказ маанилүү</div>
+</div>
+</section>
+
+<section id="catalog">
+<h2>🍔 Меню каталогу</h2>
+<p>Сүйүктүү тамагыңды танда. Баалар сом менен.</p>
+<div class="filters">
+<button class="filter active" data-filter="all">Баары</button>
+<button class="filter" data-filter="burger">Бургерлер</button>
+<button class="filter" data-filter="snack">Снэктер</button>
+<button class="filter" data-filter="pizza">Пицца</button>
+<button class="filter" data-filter="drink">Суусундуктар</button>
+</div>
+<div class="products" id="products">
+<article class="product" data-category="burger" data-id="classic" data-name="Classic Burger" data-price="290">
+<div class="food-pic">🍔</div><h3>Classic Burger</h3><p>Сыр, уй эти, фирмалык соус</p><div class="bottom"><span class="price">290 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="burger" data-id="double" data-name="Double Cheese" data-price="390">
+<div class="food-pic">🍔</div><h3>Double Cheese</h3><p>Кош эт, эки эсе сыр</p><div class="bottom"><span class="price">390 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="snack" data-id="fries" data-name="Кытырак фри" data-price="150">
+<div class="food-pic">🍟</div><h3>Кытырак фри</h3><p>Алтын түстөгү картошка</p><div class="bottom"><span class="price">150 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="snack" data-id="nuggets" data-name="Наггетс" data-price="220">
+<div class="food-pic">🍗</div><h3>Наггетс</h3><p>6 даана тоок наггетси</p><div class="bottom"><span class="price">220 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="pizza" data-id="pizza" data-name="Pepperoni Pizza" data-price="520">
+<div class="food-pic">🍕</div><h3>Pepperoni Pizza</h3><p>Сыр жана пепперони</p><div class="bottom"><span class="price">520 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="burger" data-id="chicken" data-name="Chicken Burger" data-price="270">
+<div class="food-pic">🍔</div><h3>Chicken Burger</h3><p>Тоок эти жана жашылча</p><div class="bottom"><span class="price">270 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="drink" data-id="lemonade" data-name="Үй лимонады" data-price="130">
+<div class="food-pic">🍋🥤</div><h3>Үй лимонады</h3><p>Муздак цитрус суусундугу</p><div class="bottom"><span class="price">130 сом</span><button class="add">+</button></div>
+</article>
+<article class="product" data-category="drink" data-id="coffee" data-name="Муздак кофе" data-price="180">
+<div class="food-pic">🧋</div><h3>Муздак кофе</h3><p>Сергитүүчү кофе</p><div class="bottom"><span class="price">180 сом</span><button class="add">+</button></div>
+</article>
+</div>
+</section>
+
+<section id="about" class="about">
+<h2>Биз жөнүндө</h2>
+<p>FASFUT — фастфудду заманбап жана ыңгайлуу форматта сунуштаган бренд. Биз менюну түшүнүктүү, бааларды ачык, заказ берүүнү жеңил кылууга умтулабыз.</p>
+<h3>Биздин айырмачылыгыбыз</h3>
+<p>✓ Түшүнүктүү меню жана ачык баалар</p>
+<p>✓ Ар кандай табитке ылайык тандоо</p>
+<p>✓ Себет жана заказ формасы бир жерде</p>
+</section>
+
+<section id="order">
+<h2>🧺 Заказ берүү жана алуу</h2>
+<div class="order-grid">
+<div class="panel">
+<h3>Сенин себетиң</h3>
+<div id="cartItems">Себет азырынча бош.</div>
+<div class="total"><span>Жалпы:</span><span id="total">0 сом</span></div>
+<button type="button" id="clear">Себетти тазалоо</button>
+</div>
+<form class="panel" id="orderForm">
+<h3>Заказ маалыматы</h3>
+<div class="row">
+<div><label for="name">Атыңыз</label><input id="name" name="name" required minlength="2" placeholder="Атыңыз"></div>
+<div><label for="phone">Телефон</label><input id="phone" name="phone" required type="tel" placeholder="+996 ..."></div>
+</div>
+<label>Заказды алуу жолу</label>
+<div class="radios">
+<label><input type="radio" name="method" value="Алып кетүү" checked> Өзүм алып кетем</label>
+<label><input type="radio" name="method" value="Жеткирүү"> Жеткирүү</label>
+</div>
+<div id="addressBox" style="display:none">
+<label for="address">Жеткирүү дареги</label><input id="address" name="address" placeholder="Көчө, үй">
+</div>
+<label for="payment">Төлөм ыкмасы</label>
+<select id="payment" name="payment"><option>Нак акча</option><option>Карта менен (алганда)</option></select>
+<label for="comment">Кошумча каалоо</label>
+<textarea id="comment" name="comment" rows="3" placeholder="Каалооңузду жазыңыз"></textarea>
+<br><br><button type="submit">Заказды ырастоо →</button>
+<div class="notice" id="notice" role="status"></div>
+<p style="font-size:12px;color:#777;line-height:1.6">Бул демо сайт. Заказды ресторанга чындап жөнөтүү үчүн сервер же WhatsApp туташуусу керек.</p>
+</form>
+</div>
+</section>
+
+<section id="contacts">
+<h2>Байланыш</h2>
+<div class="contact-grid">
+<div class="contact">📞<p>Телефон</p><strong>+996558872777</strong></div>
+<div class="contact">📍<p>Жайгашкан жери</p><strong>Гүлчө шаары</strong></div>
+<div class="contact">🕒<p>Иш убактысы</p><strong>Күн сайын 10:00–22:00</strong></div>
+</div>
+</section>
+</main>
+<footer><strong>🛒 FASFUT</strong><span>© 2026 FASFUT. Бардык укуктар корголгон.</span><a href="#home" style="color:white">Башына ↑</a></footer>
+
+<script>
+const cart={};
+const $=s=>document.querySelector(s);
+const $$=s=>document.querySelectorAll(s);
+const money=n=>n.toLocaleString('ru-RU')+' сом';
+
+function renderCart(){
+ const items=Object.values(cart);
+ const count=items.reduce((s,i)=>s+i.qty,0);
+ const total=items.reduce((s,i)=>s+i.qty*i.price,0);
+ $('#count').textContent=count;
+ $('#total').textContent=money(total);
+ if(!items.length){
+  $('#cartItems').textContent='Себет азырынча бош.';
+  return;
+ }
+ $('#cartItems').innerHTML=items.map(i=>
+  `<div class="cart-line"><div><strong>${i.name}</strong><br><small>${i.qty} × ${money(i.price)}</small></div>
+  <div><button type="button" data-minus="${i.id}">−</button> ${i.qty} <button type="button" data-plus="${i.id}">+</button></div></div>`
+ ).join('');
+ $$('[data-minus]').forEach(b=>b.onclick=()=>{
+  cart[b.dataset.minus].qty--;
+  if(cart[b.dataset.minus].qty<=0)delete cart[b.dataset.minus];
+  renderCart();
+ });
+ $$('[data-plus]').forEach(b=>b.onclick=()=>{
+  cart[b.dataset.plus].qty++;
+  renderCart();
+ });
+}
+
+$('#products').addEventListener('click',e=>{
+ const b=e.target.closest('.add');
+ if(!b)return;
+ const p=b.closest('.product'),id=p.dataset.id;
+ if(!cart[id])cart[id]={id,name:p.dataset.name,price:+p.dataset.price,qty:0};
+ cart[id].qty++;
+ renderCart();
+});
+
+$$('.filter').forEach(b=>b.addEventListener('click',()=>{
+ $$('.filter').forEach(x=>x.classList.toggle('active',x===b));
+ $$('.product').forEach(p=>{
+  p.style.display=b.dataset.filter==='all'||p.dataset.category===b.dataset.filter?'':'none';
+ });
+}));
+
+$('#clear').onclick=()=>{
+ Object.keys(cart).forEach(k=>delete cart[k]);
+ renderCart();
+};
+
+$$('input[name="method"]').forEach(r=>r.addEventListener('change',()=>{
+ const delivery=$('input[name="method"]:checked').value==='Жеткирүү';
+ $('#addressBox').style.display=delivery?'block':'none';
+ $('#address').required=delivery;
+}));
+
+$('#orderForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const items=Object.values(cart);
+ const notice=$('#notice');
+ notice.style.display='block';
+ if(!items.length){
+  notice.textContent='Себет бош. Адегенде менюдан тамак тандаңыз.';
+  return;
+ }
+ const f=new FormData(e.currentTarget);
+ const name=String(f.get('name')).trim();
+ const phone=String(f.get('phone')).trim();
+ if(name.length<2||phone.replace(/\D/g,'').length<7){
+  notice.textContent='Атыңызды жана туура телефон номерин жазыңыз.';
+  return;
+ }
+ const total=items.reduce((s,i)=>s+i.price*i.qty,0);
+ notice.textContent=`Рахмат, ${name}! Заказыңыз: ${items.map(i=>i.name+' × '+i.qty).join(', ')}. Жалпы сумма: ${money(total)}. Алуу жолу: ${f.get('method')}. Бул демо — заказ ресторанга жөнөтүлгөн жок.`;
+});
+
+renderCart();
+</script>
+</body>
+</html>
